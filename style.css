@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.Navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.Navbar-s1__title {
+    color: #892DE1;
+
+}
+
+.Navbar__s2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 40px;
+    width: 60%
+}
+
+.Navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+
+
+}
+
+.Navbar__s2 input:focus {
+    outline: none;
+
+}
+
+.Navbar__s3 {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.categories {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    border-radius: 50px;
+    background-color: #892DE1;
+    color: white;
+    padding: 10px;
+}
+
+.sale-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.Recommended {
+    padding: 10px;
+
+}
+
+.Recommended__container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.Course-card img {
+    width: 100%;
+    height: 70%;
+}
+
+.Course-card {
+    width: 350px;   
+}
+
+.topics {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.topics__container {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+.topics__container p {
+    border: solid gray 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.popular {
+    padding: 10px;
+    margin-top: 50px;
+    
+
+
+}
+
+.popular__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+
+
+}
+.footer{
+    background-color: #D3D3D3;
+    padding: 10px
+   
+    color: black;
+}
+
+.footer__one{
+   
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px ;
+}
+
+.footer__two {
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
