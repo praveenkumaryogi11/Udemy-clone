@@ -8,5 +8,6 @@ Popular courses section
 Responsive layout
 ## Technologies Used:
 HTML & CSS
-How to View
+## How to View
+## view
 you can access my portfolio https://praveenkumaryogi11.github.io/Udemy-clone/
